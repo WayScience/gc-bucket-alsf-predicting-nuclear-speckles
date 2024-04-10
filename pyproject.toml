@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gc-bucket-alsf-predicting-nuclear-speckles"
+version = "0.0.1"
+description = "GCP bucket for ALSF collaborations on predicting nuclear speckles."
+authors = ["Way Science Community"]
+license = "BSD-3-Clause License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pre-commit = "^3.0.0"
+cookiecutter = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
