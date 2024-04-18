@@ -1,10 +1,10 @@
 # tf versions
 terraform {
-  required_version = "~> 1.5.7"
+  required_version = "~> 1.8.0"
   required_providers {
     google = {
       source  = "hashicorp/google"
-      version = "~> 4.83.0"
+      version = "~> 5.25.0"
     }
   }
 }
